@@ -100,9 +100,16 @@
                                       <Component id="Label1" min="-2" pref="425" max="-2" attributes="0"/>
                                       <Component id="Label5" min="-2" pref="425" max="-2" attributes="0"/>
                                       <Component id="Label9" min="-2" pref="425" max="-2" attributes="0"/>
+                                      <Component id="Label13" min="-2" pref="425" max="-2" attributes="0"/>
+                                      <Component id="Label17" min="-2" pref="425" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="Label10" min="-2" pref="430" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="Label11" min="-2" pref="430" max="-2" attributes="0"/>
+                                      </Group>
                                       <Group type="102" attributes="0">
                                           <Component id="Label2" min="-2" pref="430" max="-2" attributes="0"/>
                                           <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
@@ -113,16 +120,25 @@
                                           <EmptySpace max="32767" attributes="0"/>
                                           <Component id="Label7" min="-2" pref="430" max="-2" attributes="0"/>
                                       </Group>
-                                      <Group type="102" attributes="0">
-                                          <Component id="Label10" min="-2" pref="430" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="Label14" min="-2" pref="430" max="-2" attributes="0"/>
+                                              <Component id="Label18" min="-2" pref="425" max="-2" attributes="0"/>
+                                          </Group>
                                           <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="Label11" min="-2" pref="430" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="Label15" min="-2" pref="430" max="-2" attributes="0"/>
+                                              <Component id="Label19" min="-2" pref="425" max="-2" attributes="0"/>
+                                          </Group>
                                       </Group>
                                   </Group>
                                   <EmptySpace min="35" pref="35" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="Label4" min="-2" pref="430" max="-2" attributes="0"/>
                                       <Component id="Label8" min="-2" pref="430" max="-2" attributes="0"/>
+                                      <Component id="Label12" min="-2" pref="430" max="-2" attributes="0"/>
+                                      <Component id="Label16" min="-2" pref="430" max="-2" attributes="0"/>
+                                      <Component id="Label20" min="-2" pref="425" max="-2" attributes="0"/>
+                                      <Component id="Label4" min="-2" pref="430" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -135,42 +151,46 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                           <Component id="InstructionLabel" min="-2" pref="100" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <EmptySpace pref="35" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="Label1" alignment="1" min="-2" pref="313" max="-2" attributes="0"/>
-                                      <Component id="Label2" alignment="1" min="-2" pref="313" max="-2" attributes="0"/>
-                                      <Component id="Label3" alignment="1" min="-2" pref="313" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="35" pref="35" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="Label4" min="-2" pref="313" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                              </Group>
+                              <Component id="Label1" alignment="1" min="-2" pref="313" max="-2" attributes="0"/>
+                              <Component id="Label2" alignment="1" min="-2" pref="313" max="-2" attributes="0"/>
+                              <Component id="Label3" alignment="1" min="-2" pref="313" max="-2" attributes="0"/>
+                              <Component id="Label4" alignment="1" min="-2" pref="313" max="-2" attributes="0"/>
                           </Group>
+                          <EmptySpace min="35" pref="35" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="Label8" min="-2" pref="313" max="-2" attributes="0"/>
-                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <Component id="Label7" min="-2" pref="313" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="Label11" min="-2" pref="313" max="-2" attributes="0"/>
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="Label5" alignment="1" min="-2" pref="313" max="-2" attributes="0"/>
+                                      <Component id="Label6" alignment="0" min="-2" pref="313" max="-2" attributes="0"/>
                                   </Group>
-                                  <Group type="102" attributes="0">
-                                      <Component id="Label6" min="-2" pref="313" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="Label10" min="-2" pref="313" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" attributes="0">
-                                      <Component id="Label5" min="-2" pref="313" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-                                      <Component id="Label9" min="-2" pref="313" max="-2" attributes="0"/>
-                                  </Group>
+                                  <Component id="Label7" alignment="0" min="-2" pref="313" max="-2" attributes="0"/>
                               </Group>
+                              <Component id="Label8" alignment="0" min="-2" pref="313" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" pref="515" max="-2" attributes="0"/>
+                          <EmptySpace min="35" pref="35" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Label9" alignment="0" min="-2" pref="313" max="-2" attributes="0"/>
+                              <Component id="Label10" alignment="0" min="-2" pref="313" max="-2" attributes="0"/>
+                              <Component id="Label11" alignment="0" min="-2" pref="313" max="-2" attributes="0"/>
+                              <Component id="Label12" alignment="0" min="-2" pref="313" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Label16" min="-2" pref="313" max="-2" attributes="0"/>
+                              <Component id="Label15" min="-2" pref="313" max="-2" attributes="0"/>
+                              <Component id="Label14" min="-2" pref="313" max="-2" attributes="0"/>
+                              <Component id="Label13" min="-2" pref="313" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Label17" min="-2" pref="313" max="-2" attributes="0"/>
+                              <Component id="Label18" min="-2" pref="313" max="-2" attributes="0"/>
+                              <Component id="Label19" min="-2" pref="313" max="-2" attributes="0"/>
+                              <Component id="Label20" min="-2" pref="313" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -232,6 +252,51 @@
                   </AuxValues>
                 </Component>
                 <Component class="javax.swing.JLabel" name="Label11">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Label12">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Label13">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Label14">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Label15">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Label16">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Label17">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Label18">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Label19">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Label20">
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
                   </AuxValues>

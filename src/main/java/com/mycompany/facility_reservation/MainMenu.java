@@ -44,6 +44,15 @@ public class MainMenu extends javax.swing.JFrame {
         ImageScaler.scaleImageLogo("C:\\Users\\Clarisse\\OneDrive - Emilio Aguinaldo College\\Documents\\NetBeansProjects\\Facility_Reservation\\src\\main\\java\\com\\mycompany\\facility_reservation\\FacilityPictures\\ExecutiveSuitePicture.png", Label9);
         ImageScaler.scaleImageLogo("C:\\Users\\Clarisse\\OneDrive - Emilio Aguinaldo College\\Documents\\NetBeansProjects\\Facility_Reservation\\src\\main\\java\\com\\mycompany\\facility_reservation\\FacilityPictures\\FunctionRoomPicture.png", Label10);
         ImageScaler.scaleImageLogo("C:\\Users\\Clarisse\\OneDrive - Emilio Aguinaldo College\\Documents\\NetBeansProjects\\Facility_Reservation\\src\\main\\java\\com\\mycompany\\facility_reservation\\FacilityPictures\\GeotechSoilMechLabPicture.png", Label11);
+        ImageScaler.scaleImageLogo("C:\\Users\\Clarisse\\OneDrive - Emilio Aguinaldo College\\Documents\\NetBeansProjects\\Facility_Reservation\\src\\main\\java\\com\\mycompany\\facility_reservation\\FacilityPictures\\GymnasiumPicture.png", Label12);
+        ImageScaler.scaleImageLogo("C:\\Users\\Clarisse\\OneDrive - Emilio Aguinaldo College\\Documents\\NetBeansProjects\\Facility_Reservation\\src\\main\\java\\com\\mycompany\\facility_reservation\\FacilityPictures\\HotKitchenPicture.png", Label13);
+        ImageScaler.scaleImageLogo("C:\\Users\\Clarisse\\OneDrive - Emilio Aguinaldo College\\Documents\\NetBeansProjects\\Facility_Reservation\\src\\main\\java\\com\\mycompany\\facility_reservation\\FacilityPictures\\HydraulicLabPicture.png", Label14);
+        ImageScaler.scaleImageLogo("C:\\Users\\Clarisse\\OneDrive - Emilio Aguinaldo College\\Documents\\NetBeansProjects\\Facility_Reservation\\src\\main\\java\\com\\mycompany\\facility_reservation\\FacilityPictures\\PhysicsLaboratoryPicture.png", Label15);
+        ImageScaler.scaleImageLogo("C:\\Users\\Clarisse\\OneDrive - Emilio Aguinaldo College\\Documents\\NetBeansProjects\\Facility_Reservation\\src\\main\\java\\com\\mycompany\\facility_reservation\\FacilityPictures\\PsychLabPicture.png", Label16);
+        ImageScaler.scaleImageLogo("C:\\Users\\Clarisse\\OneDrive - Emilio Aguinaldo College\\Documents\\NetBeansProjects\\Facility_Reservation\\src\\main\\java\\com\\mycompany\\facility_reservation\\FacilityPictures\\StudentsLoungePicture.png", Label17);
+        ImageScaler.scaleImageLogo("C:\\Users\\Clarisse\\OneDrive - Emilio Aguinaldo College\\Documents\\NetBeansProjects\\Facility_Reservation\\src\\main\\java\\com\\mycompany\\facility_reservation\\FacilityPictures\\TravelOfficePicture.png", Label18);
+        ImageScaler.scaleImageLogo("C:\\Users\\Clarisse\\OneDrive - Emilio Aguinaldo College\\Documents\\NetBeansProjects\\Facility_Reservation\\src\\main\\java\\com\\mycompany\\facility_reservation\\FacilityPictures\\UniversalTestingMachinePicture.png", Label19);
+        ImageScaler.scaleImageLogo("C:\\Users\\Clarisse\\OneDrive - Emilio Aguinaldo College\\Documents\\NetBeansProjects\\Facility_Reservation\\src\\main\\java\\com\\mycompany\\facility_reservation\\FacilityPictures\\ZoologyLaboratoryPicture.png", Label20);
         
         //Adds outline to the label when hovered by cursor.
         CommonMethods Outliner = new CommonMethods();
@@ -58,7 +67,16 @@ public class MainMenu extends javax.swing.JFrame {
         Outliner.addHoverOutline(Label9);
         Outliner.addHoverOutline(Label10);
         Outliner.addHoverOutline(Label11);
-        
+        Outliner.addHoverOutline(Label12);
+        Outliner.addHoverOutline(Label13);
+        Outliner.addHoverOutline(Label14);
+        Outliner.addHoverOutline(Label15);
+        Outliner.addHoverOutline(Label16);
+        Outliner.addHoverOutline(Label17);
+        Outliner.addHoverOutline(Label18);
+        Outliner.addHoverOutline(Label19);
+        Outliner.addHoverOutline(Label20); 
+
         //Sets the panel background image
         SwingUtilities.invokeLater(() -> {
         CommonMethods.setBackgroundImage(MainMenuPanel, "C:\\Users\\Clarisse\\OneDrive - Emilio Aguinaldo College\\Documents\\NetBeansProjects\\Facility_Reservation\\src\\main\\java\\com\\mycompany\\facility_reservation\\FacilityPictures\\MainMenuBackground_IMPROVED.png");
@@ -91,6 +109,15 @@ public class MainMenu extends javax.swing.JFrame {
         Label9 = new javax.swing.JLabel();
         Label10 = new javax.swing.JLabel();
         Label11 = new javax.swing.JLabel();
+        Label12 = new javax.swing.JLabel();
+        Label13 = new javax.swing.JLabel();
+        Label14 = new javax.swing.JLabel();
+        Label15 = new javax.swing.JLabel();
+        Label16 = new javax.swing.JLabel();
+        Label17 = new javax.swing.JLabel();
+        Label18 = new javax.swing.JLabel();
+        Label19 = new javax.swing.JLabel();
+        Label20 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -121,9 +148,15 @@ public class MainMenu extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(Label1, javax.swing.GroupLayout.PREFERRED_SIZE, 425, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(Label5, javax.swing.GroupLayout.PREFERRED_SIZE, 425, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Label9, javax.swing.GroupLayout.PREFERRED_SIZE, 425, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(Label9, javax.swing.GroupLayout.PREFERRED_SIZE, 425, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Label13, javax.swing.GroupLayout.PREFERRED_SIZE, 425, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Label17, javax.swing.GroupLayout.PREFERRED_SIZE, 425, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(35, 35, 35)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(Label10, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Label11, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(Label2, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(35, 35, 35)
@@ -133,13 +166,20 @@ public class MainMenu extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(Label7, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(Label10, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(Label14, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(Label18, javax.swing.GroupLayout.PREFERRED_SIZE, 425, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Label11, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(Label15, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(Label19, javax.swing.GroupLayout.PREFERRED_SIZE, 425, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGap(35, 35, 35)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Label4, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Label8, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(Label8, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Label12, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Label16, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Label20, javax.swing.GroupLayout.PREFERRED_SIZE, 425, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Label4, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(55, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -147,33 +187,39 @@ public class MainMenu extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(18, 18, 18)
                 .addComponent(InstructionLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 35, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Label1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Label2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Label3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(35, 35, 35))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(Label4, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(Label1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(35, 35, 35)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Label8, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addGroup(jPanel1Layout.createSequentialGroup()
-                            .addComponent(Label7, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(Label11, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel1Layout.createSequentialGroup()
-                            .addComponent(Label6, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(Label10, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel1Layout.createSequentialGroup()
-                            .addComponent(Label5, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(35, 35, 35)
-                            .addComponent(Label9, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(515, 515, 515))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Label5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Label6, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(Label7, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(Label8, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(35, 35, 35)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Label9, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label10, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label11, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label12, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(35, 35, 35)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Label16, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label15, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label14, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label13, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(35, 35, 35)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Label17, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label18, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label19, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Label20, javax.swing.GroupLayout.PREFERRED_SIZE, 313, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(100, 100, 100))
         );
 
         Label1.getAccessibleContext().setAccessibleName("FirstLabel");
@@ -264,7 +310,16 @@ public class MainMenu extends javax.swing.JFrame {
     private static javax.swing.JLabel Label1;
     private static javax.swing.JLabel Label10;
     private static javax.swing.JLabel Label11;
+    private static javax.swing.JLabel Label12;
+    private static javax.swing.JLabel Label13;
+    private static javax.swing.JLabel Label14;
+    private static javax.swing.JLabel Label15;
+    private static javax.swing.JLabel Label16;
+    private static javax.swing.JLabel Label17;
+    private static javax.swing.JLabel Label18;
+    private static javax.swing.JLabel Label19;
     private static javax.swing.JLabel Label2;
+    private static javax.swing.JLabel Label20;
     private static javax.swing.JLabel Label3;
     private static javax.swing.JLabel Label4;
     private static javax.swing.JLabel Label5;
